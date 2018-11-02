@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Question #1 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="24sp"
+                android:text="@string/pergunta1"
+                android:textColor="#000"
+                />
+
+            <RadioGroup
+                android:id="@+id/pergunta1RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/p1AlternativaARadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p1AlternativaA"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p1AlternativaBRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p1AlternativaB"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p1AlternativaCRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p1AlternativaC"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p1AlternativaDRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p1AlternativaD"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p1AlternativaERadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p1AlternativaE"
+                    />
+
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"
+                />
+
+        </LinearLayout>
+
+        <!-- Question #2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="24sp"
+                android:text="@string/pergunta2"
+                android:textColor="#000"
+                />
+
+            <RadioGroup
+                android:id="@+id/pergunta2RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/p2AlternativaARadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p2AlternativaA"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p2AlternativaBRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p2AlternativaB"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p2AlternativaCRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p2AlternativaC"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p2AlternativaDRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p2AlternativaD"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p2AlternativaERadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p2AlternativaE"
+                    />
+
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"
+                />
+
+        </LinearLayout>
+
+        <!-- Question #3 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="24sp"
+                android:text="@string/pergunta3"
+                android:textColor="#000"
+                />
+
+            <RadioGroup
+                android:id="@+id/pergunta3RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/p3AlternativaARadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p3AlternativaA"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p3AlternativaBRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p1AlternativaB"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p3AlternativaCRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p3AlternativaC"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p3AlternativaDRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p3AlternativaD"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p3AlternativaERadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p3AlternativaE"
+                    />
+
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"
+                />
+
+        </LinearLayout>
+
+        <!-- Question #4 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="24sp"
+                android:text="@string/pergunta4"
+                android:textColor="#000"
+                />
+
+            <RadioGroup
+                android:id="@+id/pergunta4RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/p4AlternativaARadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p4AlternativaA"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p4AlternativaBRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p4AlternativaB"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p4AlternativaCRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p4AlternativaC"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p4AlternativaDRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p4AlternativaD"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p4AlternativaERadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p4AlternativaE"
+                    />
+
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"
+                />
+
+        </LinearLayout>
+
+        <!-- Question #5 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="24sp"
+                android:text="@string/pergunta5"
+                android:textColor="#000"
+                />
+
+            <RadioGroup
+                android:id="@+id/pergunta5RadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp">
+
+                <RadioButton
+                    android:id="@+id/p5AlternativaARadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p5AlternativaA"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p5AlternativaBRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p5AlternativaB"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p5AlternativaCRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p5AlternativaC"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p5AlternativaDRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p5AlternativaD"
+                    />
+
+                <RadioButton
+                    android:id="@+id/p5AlternativaERadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p5AlternativaE"
+                    />
+
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="16dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enviar"
+            android:layout_marginBottom="8dp"
+            android:onClick="enviar"
+            />
+
+    </LinearLayout>
+</ScrollView>

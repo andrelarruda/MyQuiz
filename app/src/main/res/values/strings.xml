@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">My Quiz</string>
+    <string name="pergunta1">1.	Em que ano o Rio de janeiro deixou de ser a capital do Brasil? </string>
+    <string name="p1AlternativaA">1983</string>
+    <string name="p1AlternativaB">1959</string>
+    <string name="p1AlternativaC">1980</string>
+    <string name="p1AlternativaD">1960</string><!--CORRETA-->
+    <string name="p1AlternativaE">1987</string>
+
+    <string name="pergunta2">2.	Qual a maior cidade do Brasil? </string>
+    <string name="p2AlternativaA">São Paulo</string><!--CORRETA-->
+    <string name="p2AlternativaB">Salvador</string>
+    <string name="p2AlternativaC">Recife</string>
+    <string name="p2AlternativaD">Manaus</string>
+    <string name="p2AlternativaE">Rio de Janeiro</string>
+
+    <string name="pergunta3">3.	Qual dessas redes sociais foi criada por um brasileiro? </string>
+    <string name="p3AlternativaA">Google</string>
+    <string name="p3AlternativaB">Instagram</string><!--CORRETA-->
+    <string name="p3AlternativaC">Facebook</string>
+    <string name="p3AlternativaD">Whatsapp</string>
+    <string name="p3AlternativaE">Youtube</string>
+
+    <string name="pergunta4">4. Qual a nacionalidade do descobridor do Brasil? </string>
+    <string name="p4AlternativaA">Alemão</string>
+    <string name="p4AlternativaB">Russo</string>
+    <string name="p4AlternativaC">Inglês</string>
+    <string name="p4AlternativaD">Americano</string>
+    <string name="p4AlternativaE">Português</string><!--CORRETA-->
+
+    <string name="pergunta5">5. O Brasil está em que posição no ranking de maiores territórios do mundo? </string>
+    <string name="p5AlternativaA">3</string>
+    <string name="p5AlternativaB">2</string>
+    <string name="p5AlternativaC">5</string><!--CORRETA-->
+    <string name="p5AlternativaD">7</string>
+    <string name="p5AlternativaE">4</string>
+    <string name="enviar">Enviar</string>
+
+</resources>
