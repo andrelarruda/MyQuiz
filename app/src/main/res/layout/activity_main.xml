@@ -20,17 +20,12 @@
 
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:textSize="24sp"
-                android:text="@string/pergunta1"
-                android:textColor="#000"
+                android:text="@string/question1"
+                style="@style/questionsTextStyle"
                 />
 
             <RadioGroup
-                android:id="@+id/pergunta1RadioGroup"
+                android:id="@+id/q1RadioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -38,38 +33,38 @@
                 android:layout_marginLeft="16dp">
 
                 <RadioButton
-                    android:id="@+id/p1AlternativaARadioButton"
+                    android:id="@+id/question1OptionARadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p1AlternativaA"
+                    android:text="@string/question1OptionA"
                     />
 
                 <RadioButton
-                    android:id="@+id/p1AlternativaBRadioButton"
+                    android:id="@+id/question1OptionBRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p1AlternativaB"
+                    android:text="@string/question1OptionB"
                     />
 
                 <RadioButton
-                    android:id="@+id/p1AlternativaCRadioButton"
+                    android:id="@+id/question1OptionCRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p1AlternativaC"
+                    android:text="@string/question1OptionC"
                     />
 
                 <RadioButton
-                    android:id="@+id/p1AlternativaDRadioButton"
+                    android:id="@+id/question1OptionDRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p1AlternativaD"
+                    android:text="@string/question1OptionD"
                     />
 
                 <RadioButton
-                    android:id="@+id/p1AlternativaERadioButton"
+                    android:id="@+id/question1OptionERadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p1AlternativaE"
+                    android:text="@string/question1OptionE"
                     />
 
 
@@ -92,17 +87,12 @@
             >
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:textSize="24sp"
-                android:text="@string/pergunta2"
-                android:textColor="#000"
+                android:text="@string/question2"
+                style="@style/questionsTextStyle"
                 />
 
             <RadioGroup
-                android:id="@+id/pergunta2RadioGroup"
+                android:id="@+id/q2RadioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -110,38 +100,38 @@
                 android:layout_marginLeft="16dp">
 
                 <RadioButton
-                    android:id="@+id/p2AlternativaARadioButton"
+                    android:id="@+id/question2OptionARadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p2AlternativaA"
+                    android:text="@string/question2OptionA"
                     />
 
                 <RadioButton
-                    android:id="@+id/p2AlternativaBRadioButton"
+                    android:id="@+id/question2OptionBRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p2AlternativaB"
+                    android:text="@string/question2OptionB"
                     />
 
                 <RadioButton
-                    android:id="@+id/p2AlternativaCRadioButton"
+                    android:id="@+id/question2OptionCRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p2AlternativaC"
+                    android:text="@string/question2OptionC"
                     />
 
                 <RadioButton
-                    android:id="@+id/p2AlternativaDRadioButton"
+                    android:id="@+id/question2OptionDRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p2AlternativaD"
+                    android:text="@string/question2OptionD"
                     />
 
                 <RadioButton
-                    android:id="@+id/p2AlternativaERadioButton"
+                    android:id="@+id/question2OptionERadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p2AlternativaE"
+                    android:text="@string/question2OptionE"
                     />
 
 
@@ -165,17 +155,12 @@
 
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:textSize="24sp"
-                android:text="@string/pergunta3"
-                android:textColor="#000"
+                android:text="@string/question3"
+                style="@style/questionsTextStyle"
                 />
 
             <RadioGroup
-                android:id="@+id/pergunta3RadioGroup"
+                android:id="@+id/q3RadioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -183,38 +168,38 @@
                 android:layout_marginLeft="16dp">
 
                 <RadioButton
-                    android:id="@+id/p3AlternativaARadioButton"
+                    android:id="@+id/question3OptionARadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p3AlternativaA"
+                    android:text="@string/question3OptionA"
                     />
 
                 <RadioButton
-                    android:id="@+id/p3AlternativaBRadioButton"
+                    android:id="@+id/question3OptionBRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p1AlternativaB"
+                    android:text="@string/question3OptionB"
                     />
 
                 <RadioButton
-                    android:id="@+id/p3AlternativaCRadioButton"
+                    android:id="@+id/question3OptionCRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p3AlternativaC"
+                    android:text="@string/question3OptionC"
                     />
 
                 <RadioButton
-                    android:id="@+id/p3AlternativaDRadioButton"
+                    android:id="@+id/question3OptionDRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p3AlternativaD"
+                    android:text="@string/question3OptionD"
                     />
 
                 <RadioButton
-                    android:id="@+id/p3AlternativaERadioButton"
+                    android:id="@+id/question3OptionERadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p3AlternativaE"
+                    android:text="@string/question3OptionE"
                     />
 
 
@@ -237,17 +222,12 @@
             >
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:textSize="24sp"
-                android:text="@string/pergunta4"
-                android:textColor="#000"
+                android:text="@string/question4"
+                style="@style/questionsTextStyle"
                 />
 
             <RadioGroup
-                android:id="@+id/pergunta4RadioGroup"
+                android:id="@+id/q4RadioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -255,38 +235,38 @@
                 android:layout_marginLeft="16dp">
 
                 <RadioButton
-                    android:id="@+id/p4AlternativaARadioButton"
+                    android:id="@+id/question4OptionARadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p4AlternativaA"
+                    android:text="@string/question4OptionA"
                     />
 
                 <RadioButton
-                    android:id="@+id/p4AlternativaBRadioButton"
+                    android:id="@+id/question4OptionBRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p4AlternativaB"
+                    android:text="@string/question4OptionB"
                     />
 
                 <RadioButton
-                    android:id="@+id/p4AlternativaCRadioButton"
+                    android:id="@+id/question4OptionCRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p4AlternativaC"
+                    android:text="@string/question4OptionC"
                     />
 
                 <RadioButton
-                    android:id="@+id/p4AlternativaDRadioButton"
+                    android:id="@+id/question4OptionDRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p4AlternativaD"
+                    android:text="@string/question4OptionD"
                     />
 
                 <RadioButton
-                    android:id="@+id/p4AlternativaERadioButton"
+                    android:id="@+id/question4OptionERadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p4AlternativaE"
+                    android:text="@string/question4OptionE"
                     />
 
 
@@ -309,17 +289,12 @@
             >
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:textSize="24sp"
-                android:text="@string/pergunta5"
-                android:textColor="#000"
+                android:text="@string/question5"
+                style="@style/questionsTextStyle"
                 />
 
             <RadioGroup
-                android:id="@+id/pergunta5RadioGroup"
+                android:id="@+id/q5RadioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -327,38 +302,38 @@
                 android:layout_marginLeft="16dp">
 
                 <RadioButton
-                    android:id="@+id/p5AlternativaARadioButton"
+                    android:id="@+id/question5OptionARadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p5AlternativaA"
+                    android:text="@string/question5OptionA"
                     />
 
                 <RadioButton
-                    android:id="@+id/p5AlternativaBRadioButton"
+                    android:id="@+id/question5OptionBRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p5AlternativaB"
+                    android:text="@string/question5OptionB"
                     />
 
                 <RadioButton
-                    android:id="@+id/p5AlternativaCRadioButton"
+                    android:id="@+id/question5OptionCRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p5AlternativaC"
+                    android:text="@string/question5OptionC"
                     />
 
                 <RadioButton
-                    android:id="@+id/p5AlternativaDRadioButton"
+                    android:id="@+id/question5OptionDRadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p5AlternativaD"
+                    android:text="@string/question5OptionD"
                     />
 
                 <RadioButton
-                    android:id="@+id/p5AlternativaERadioButton"
+                    android:id="@+id/question5OptionERadioButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/p5AlternativaE"
+                    android:text="@string/question5OptionE"
                     />
 
 
@@ -373,13 +348,29 @@
 
         </LinearLayout>
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/enviar"
-            android:layout_marginBottom="8dp"
-            android:onClick="enviar"
-            />
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_weight="1"
+                android:text="@string/reset"
+                android:layout_marginLeft="8dp"
+                android:onClick="reset"
+                style="@style/buttonStyle"
+                />
+
+            <Button
+                android:layout_weight="2"
+                android:text="@string/submit"
+                android:onClick="submit"
+                android:layout_marginRight="8dp"
+                style="@style/buttonStyle"
+                />
+
+        </LinearLayout>
+
 
     </LinearLayout>
 </ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Meu Quiz</string>
+    <string name="submit">Enviar</string>
+    <string name="successful_questions">Questões acertadas:</string>
+    <string name="question1">1.Em que ano o Rio de janeiro deixou de ser a capital do Brasil?</string>
+    <string name="question2">2.Qual a maior cidade do Brasil?</string>
+    <string name="question3">3.Qual dessas redes sociais foi criada por um brasileiro?</string>
+    <string name="question4">4.Qual a nacionalidade do descobridor do Brasil?</string>
+    <string name="question5">5.O Brasil está em que posição no ranking de maiores territórios do mundo?</string>
+    <string name="question4OptionA">Alemão</string>
+    <string name="question4OptionB">Russo</string>
+    <string name="question4OptionC">Inglês</string>
+    <string name="question4OptionD">Americano</string>
+    <string name="question4OptionE">Português</string>
+    <string name="question2OptionA">São Paulo</string>
+</resources>

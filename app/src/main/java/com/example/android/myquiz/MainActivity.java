@@ -2,28 +2,33 @@ package com.example.android.myquiz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     int rightAnswersQuantity = 0;
 
-    RadioGroup pergunta1RadioGroup;
-    RadioGroup pergunta2RadioGroup;
-    RadioGroup pergunta3RadioGroup;
-    RadioGroup pergunta4RadioGroup;
-    RadioGroup pergunta5RadioGroup;
+    RadioGroup question1RadioGroup;
+    RadioGroup question2RadioGroup;
+    RadioGroup question3RadioGroup;
+    RadioGroup question4RadioGroup;
+    RadioGroup question5RadioGroup;
 
-    RadioButton respostaCertaPergunta1;
-    RadioButton respostaCertaPergunta2;
-    RadioButton respostaCertaPergunta3;
-    RadioButton respostaCertaPergunta4;
-    RadioButton respostaCertaPergunta5;
+    RadioButton rightAnswerForQuestion1;
+    RadioButton rightAnswerForQuestion2;
+    RadioButton rightAnswerForQuestion3;
+    RadioButton rightAnswerForQuestion4;
+    RadioButton rightAnswerForQuestion5;
 
+    List<RadioGroup> questions = new LinkedList<RadioGroup>();
+    List<RadioButton> rightAnswers = new ArrayList<>();
 
 
     @Override
@@ -31,23 +36,70 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        pergunta1RadioGroup = (RadioGroup)findViewById(R.id.pergunta1RadioGroup);
-        pergunta2RadioGroup = (RadioGroup)findViewById(R.id.pergunta2RadioGroup);
-        pergunta3RadioGroup = (RadioGroup)findViewById(R.id.pergunta3RadioGroup);
-        pergunta4RadioGroup = (RadioGroup)findViewById(R.id.pergunta4RadioGroup);
-        pergunta5RadioGroup = (RadioGroup)findViewById(R.id.pergunta5RadioGroup);
+        question1RadioGroup = (RadioGroup)findViewById(R.id.q1RadioGroup);
+        question2RadioGroup = (RadioGroup)findViewById(R.id.q2RadioGroup);
+        question3RadioGroup = (RadioGroup)findViewById(R.id.q3RadioGroup);
+        question4RadioGroup = (RadioGroup)findViewById(R.id.q4RadioGroup);
+        question5RadioGroup = (RadioGroup)findViewById(R.id.q5RadioGroup);
 
-        respostaCertaPergunta1 = (RadioButton)findViewById(R.id.p1AlternativaDRadioButton);
-        respostaCertaPergunta2 = (RadioButton)findViewById(R.id.p1AlternativaARadioButton);
-        respostaCertaPergunta3 = (RadioButton)findViewById(R.id.p1AlternativaBRadioButton);
-        respostaCertaPergunta4 = (RadioButton)findViewById(R.id.p1AlternativaERadioButton);
-        respostaCertaPergunta5 = (RadioButton)findViewById(R.id.p1AlternativaCRadioButton);
+        rightAnswerForQuestion1 = (RadioButton)findViewById(R.id.question1OptionDRadioButton);
+        rightAnswerForQuestion2 = (RadioButton)findViewById(R.id.question2OptionARadioButton);
+        rightAnswerForQuestion3 = (RadioButton)findViewById(R.id.question3OptionBRadioButton);
+        rightAnswerForQuestion4 = (RadioButton)findViewById(R.id.question4OptionERadioButton);
+        rightAnswerForQuestion5 = (RadioButton)findViewById(R.id.question5OptionCRadioButton);
+
+        questions.add(question1RadioGroup);
+        questions.add(question2RadioGroup);
+        questions.add(question3RadioGroup);
+        questions.add(question4RadioGroup);
+        questions.add(question5RadioGroup);
+
+        rightAnswers.add(rightAnswerForQuestion1);
+        rightAnswers.add(rightAnswerForQuestion2);
+        rightAnswers.add(rightAnswerForQuestion3);
+        rightAnswers.add(rightAnswerForQuestion4);
+        rightAnswers.add(rightAnswerForQuestion5);
 
     }
 
-    public void enviar(View view){
-        RadioButton respostaCertaRadioButon = (RadioButton)findViewById(R.id.p1AlternativaDRadioButton);
-        Log.i("MainActivity", "A resposta está certa? " + isAnswerRight(pergunta1RadioGroup, respostaCertaRadioButon));
+    public void submit(View view){
+
+        int quantityQuestions = questions.size();
+
+        for (int i = 0 ; i < quantityQuestions ; i++){
+            RadioGroup question = questions.get(i);
+            RadioButton rightAnswer = rightAnswers.get(i);
+
+            if (isAnswerRight(question, rightAnswer)){
+                rightAnswersQuantity++;
+            }
+        }
+
+        String text = getString(R.string.successful_questions);
+        makeToast(text + " " + rightAnswersQuantity);
+
+        //make rightAnswerQuantity 0
+        rightAnswersQuantity = 0;
+        reset();
+
+    }
+
+    //reset checked boxes
+    public void reset(View view){
+        for (int i = 0 ; i < questions.size() ; i++){
+            questions.get(i).clearCheck();
+        }
+        rightAnswersQuantity = 0;
+
+    }
+
+    //reset checked boxes
+    public void reset(){
+        for (int i = 0 ; i < questions.size() ; i++){
+            questions.get(i).clearCheck();
+        }
+        rightAnswersQuantity = 0;
+
     }
 
 

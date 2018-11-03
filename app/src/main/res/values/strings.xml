@@ -1,39 +1,43 @@
 <resources>
+
     <string name="app_name">My Quiz</string>
-    <string name="pergunta1">1.	Em que ano o Rio de janeiro deixou de ser a capital do Brasil? </string>
-    <string name="p1AlternativaA">1983</string>
-    <string name="p1AlternativaB">1959</string>
-    <string name="p1AlternativaC">1980</string>
-    <string name="p1AlternativaD">1960</string><!--CORRETA-->
-    <string name="p1AlternativaE">1987</string>
+    <string name="question1">1.	What year was Rio de Janeiro no longer the capital of Brazil? </string>
+    <string name="question1OptionA" translatable="false">1983</string>
+    <string name="question1OptionB" translatable="false">1959</string>
+    <string name="question1OptionC" translatable="false">1980</string>
+    <string name="question1OptionD" translatable="false">1960</string><!--CORRECT ANSWER-->
+    <string name="question1OptionE" translatable="false">1987</string>
 
-    <string name="pergunta2">2.	Qual a maior cidade do Brasil? </string>
-    <string name="p2AlternativaA">São Paulo</string><!--CORRETA-->
-    <string name="p2AlternativaB">Salvador</string>
-    <string name="p2AlternativaC">Recife</string>
-    <string name="p2AlternativaD">Manaus</string>
-    <string name="p2AlternativaE">Rio de Janeiro</string>
+    <string name="question2">2.	What is the biggest city in Brazil?</string>
+    <string name="question2OptionA">Sao Paulo</string><!--CORRECT ANSWER-->
+    <string name="question2OptionB" translatable="false">Salvador</string>
+    <string name="question2OptionC" translatable="false">Recife</string>
+    <string name="question2OptionD" translatable="false">Manaus</string>
+    <string name="question2OptionE" translatable="false">Rio de Janeiro</string>
 
-    <string name="pergunta3">3.	Qual dessas redes sociais foi criada por um brasileiro? </string>
-    <string name="p3AlternativaA">Google</string>
-    <string name="p3AlternativaB">Instagram</string><!--CORRETA-->
-    <string name="p3AlternativaC">Facebook</string>
-    <string name="p3AlternativaD">Whatsapp</string>
-    <string name="p3AlternativaE">Youtube</string>
+    <string name="question3">3. Which of these social networks was created by a Brazilian?</string>
+    <string name="question3OptionA" translatable="false">Google</string>
+    <string name="question3OptionB" translatable="false">Instagram</string><!--CORRECT ANSWER-->
+    <string name="question3OptionC" translatable="false">Facebook</string>
+    <string name="question3OptionD" translatable="false">Whatsapp</string>
+    <string name="question3OptionE" translatable="false">Youtube</string>
 
-    <string name="pergunta4">4. Qual a nacionalidade do descobridor do Brasil? </string>
-    <string name="p4AlternativaA">Alemão</string>
-    <string name="p4AlternativaB">Russo</string>
-    <string name="p4AlternativaC">Inglês</string>
-    <string name="p4AlternativaD">Americano</string>
-    <string name="p4AlternativaE">Português</string><!--CORRETA-->
+    <string name="question4">4. What is the nationality of the discoverer of Brazil?</string>
+    <string name="question4OptionA">German</string>
+    <string name="question4OptionB">Russian</string>
+    <string name="question4OptionC">English</string>
+    <string name="question4OptionD">American</string>
+    <string name="question4OptionE">Portuguese</string><!--CORRECT ANSWER-->
 
-    <string name="pergunta5">5. O Brasil está em que posição no ranking de maiores territórios do mundo? </string>
-    <string name="p5AlternativaA">3</string>
-    <string name="p5AlternativaB">2</string>
-    <string name="p5AlternativaC">5</string><!--CORRETA-->
-    <string name="p5AlternativaD">7</string>
-    <string name="p5AlternativaE">4</string>
-    <string name="enviar">Enviar</string>
+    <string name="question5">5. What is Brazil\'s position in the ranking of the world\'s largest territories?</string>
+    <string name="question5OptionA" translatable="false">3</string>
+    <string name="question5OptionB" translatable="false">2</string>
+    <string name="question5OptionC" translatable="false">5</string><!--CORRECT ANSWER-->
+    <string name="question5OptionD" translatable="false">7</string>
+    <string name="question5OptionE" translatable="false">4</string>
+
+    <string name="submit">Submit</string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="successful_questions">Successful questions:</string>
 
 </resources>
